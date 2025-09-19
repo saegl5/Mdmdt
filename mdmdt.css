@@ -52,7 +52,8 @@
   --item-hover-bg-color: var(--bg-color2);
   --item-hover-text-color: var(--color-1);
   --select-text-bg-color: var(--color-1-0-a);
-  --monospace: "JetBrains Mono", "Source Code Pro", "Fira Code", Consolas, Inconsolata, "Cascadia Code", Monaco, "Ubuntu Mono", monospace;
+  /* --monospace: "JetBrains Mono", "Source Code Pro", "Fira Code", Consolas, Inconsolata, "Cascadia Code", Monaco, "Ubuntu Mono", monospace; */
+  --monospace: monospace;
 
   /*--mermaid-theme: neutral;*/ /*or base, dark, forest, neutral, night*/
   --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
@@ -77,12 +78,14 @@ body {
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.6px;
-  font-family: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "PingFang SC", "Microsoft YaHei UI", "Microsoft YaHei", Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: system-ui;
   background: var(--bg-color);
   overflow-x: hidden;
 }
 body.os-windows {
-  font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Microsoft YaHei UI", "Microsoft YaHei", Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  font-family: system-ui;
   letter-spacing: 1px;
 }
 * {
