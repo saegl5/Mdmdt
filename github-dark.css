@@ -275,6 +275,12 @@ kbd {
 table {
   border: 1px solid var(--border-color) !important;
 }
+table th {
+  border: 1px solid var(--border-color); /* override github.css */
+}
+table td {
+  border: 1px solid var(--border-color); /* override github.css */
+}
 table thead tr th {
   background: var(--bg-color2);
 }
