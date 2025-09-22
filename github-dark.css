@@ -54,6 +54,7 @@ html {
 }
 body {
   background: var(--bg-color);
+  color: var(--text-color); /* override github.css */
 }
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
