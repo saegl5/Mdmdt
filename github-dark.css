@@ -41,8 +41,8 @@
   --primary-btn-text-color: var(--text-color);
   --window-border: 1px solid var(--border-color);
   --active-file-bg-color: var(--bg-color2);
-  --active-file-text-color: var(--color-1);
-  --active-file-border-color: var(--color-1);
+  /* --active-file-text-color: var(--color-1); */ /* inherit github.css */
+  /* --active-file-border-color: var(--color-1); */ /* inherit github.css */
   --side-bar-bg-color: var(--bg-color);
   --item-hover-bg-color: var(--bg-color2);
   --item-hover-text-color: var(--color-1);
