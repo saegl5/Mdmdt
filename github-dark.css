@@ -45,7 +45,7 @@
   /* --active-file-border-color: var(--color-1); */ /* inherit github.css */
   --side-bar-bg-color: var(--bg-color);
   --item-hover-bg-color: var(--bg-color2);
-  --item-hover-text-color: var(--color-1);
+  /* --item-hover-text-color: var(--color-1); */ /* inherit github.css */
   --select-text-bg-color: var(--color-1-0-a);
 }
 html {
@@ -596,7 +596,7 @@ span.md-comment {
 .fa-folder:after,
 .fa-caret-right,
 .fa-caret-down {
-  color: var(--text-grey);
+  /* color: var(--text-grey); */ /* inherit github.css */
 }
 .file-node-content .file-node-open-state::after {
   border-left: 1px solid var(--border-color);
@@ -750,7 +750,7 @@ span.md-comment {
 #sidebar-files-menu li:hover > a,
 #close-sidebar-menu-btn:hover {
   background: var(--bg-color2) !important;
-  color: var(--color-1) !important;
+  /* color: var(--color-1) !important; */ /* inherit github.css */
 }
 .dropdown-menu li > span > a:hover {
   background: var(--color-1-0-b) !important;
@@ -910,7 +910,7 @@ span.md-comment {
   color: var(--title-color);
 }
 .sidebar-tab-btn:hover {
-  color: var(--color-1);
+  /* color: var(--color-1); */ /* inherit github.css */
 }
 .mac-os .ty-show-search .ty-tab-wrapper {
   border-bottom: 1px solid var(--border-color);
