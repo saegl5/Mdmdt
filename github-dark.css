@@ -110,8 +110,8 @@ strong {
   color: #cfdfff;
 }
 del {
-  color: var(--text-grey);
-  text-decoration-color: var(--color-5);
+  /* color: var(--text-grey); */ /* inherit github.css */
+  /* text-decoration-color: var(--color-5); */ /* inherit github.css */
   -moz-text-decoration-color: var(--color-5);
 }
 mark {
@@ -124,7 +124,7 @@ mark {
  * ------------------------
 */
 a {
-  color: var(--color-1);
+  /* color: var(--color-1); */ /* inherit github.css */
 }
 a:hover,
 .md-link a:hover,
