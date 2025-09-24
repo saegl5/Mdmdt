@@ -545,11 +545,11 @@ span.md-comment {
 .outline-item:hover > .outline-label,
 .outline-item-active,
 .outline-item-active > .outline-label {
-  background: var(--bg-color2) !important;
+  /* background: var(--bg-color2) !important; */ /* inherit github.css */
 }
 .outline-item-active > .outline-label,
 .outline-item-active > .outline-expander::before {
-  color: var(--color-1);
+  /* color: var(--color-1); */ /* inherit github.css */
 }
 /*ty-search-item*/
 #file-library-list .file-list-item,
