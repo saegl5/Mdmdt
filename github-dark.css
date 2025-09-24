@@ -860,12 +860,6 @@ span.md-comment {
 .sidebar-tab-btn {
   color: var(--title-color);
 }
-.sidebar-tab-btn:hover {
-  /* color: var(--color-1); */ /* inherit github.css */
-}
-.mac-os .ty-show-search .ty-tab-wrapper {
-  /* border-bottom: 1px solid var(--border-color); */ /* inherit github.css */
-}
 #typora-quick-open {
   background-color: var(--bg-color);
   border: 1px solid var(--border-color);
