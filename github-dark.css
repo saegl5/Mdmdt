@@ -183,6 +183,7 @@ span.md-image span.md-image-pick-file-btn {
  * ------------------------
 */
 code {
+  background: var(--bg-color2); /* override color */
   /* color: var(--text-code); */ /* inherit github.css */
   border: 1px solid var(--border-color); /* override github.css */
 }
