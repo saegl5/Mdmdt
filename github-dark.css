@@ -183,6 +183,7 @@ span.md-image span.md-image-pick-file-btn {
  * ------------------------
 */
 code {
+  /* color: var(--text-code); */ /* inherit github.css */
   border: 1px solid var(--border-color); /* override github.css */
 }
 /*
@@ -542,11 +543,11 @@ span.md-comment {
 }
 #file-library-list .file-list-item:hover,
 #file-library-search-result .ty-search-item:hover {
-  background: var(--bg-color2);
+  /* background: var(--bg-color2); */ /* inherit github.css */
   border-color: var(--border-color);
 }
 #file-library-list .file-list-item:hover {
-  color: var(--color-1);
+  /* color: var(--color-1); */ /* inherit github.css */
 }
 #file-library-list .file-list-item:hover + .file-list-item:not(.active),
 #file-library-list .file-list-item.active + .file-list-item:not(.active),
@@ -560,7 +561,7 @@ span.md-comment {
 }
 #file-library-list .file-list-item.active:hover,
 #file-library-search-result .ty-search-item.active:hover {
-  border-color: var(--color-1);
+  /* border-color: var(--color-1); */ /* inherit github.css */
 }
 #file-library-search-result .ty-search-item.active {
   color: var(--text-color);
