@@ -103,9 +103,6 @@ h1 {
 hr {
   background: var(--border-color);
 }
-p {
-  white-space: pre-wrap;
-}
 strong {
   color: #cfdfff;
 }
@@ -289,10 +286,6 @@ table tbody tr:nth-child(even) td {
 }
 table tbody tr:nth-child(odd) td {
   background: var(--bg-color);
-}
-table tr th,
-table tr td {
-  white-space: pre-wrap !important;
 }
 table tr td,
 table thead tr th {
@@ -572,9 +565,6 @@ span.md-comment {
 }
 #file-library-search-result .ty-search-item.active {
   color: var(--text-color);
-}
-#file-library-search-result .ty-search-item.active .ty-search-item-line {
-  white-space: pre-wrap;
 }
 .ty-file-search-match-text {
   background-color: var(--color-2-0-c);
@@ -942,9 +932,6 @@ span.md-comment {
   background: var(--bg-color);
   border-bottom: 1px solid var(--border-color);
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-}
-#md-notification p {
-  white-space: nowrap;
 }
 #md-notification .typora-search-spinner > div,
 #md-notification .typora-export-spinner > div {
