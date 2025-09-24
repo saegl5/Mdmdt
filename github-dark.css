@@ -538,31 +538,10 @@ span.md-comment {
   /* border: 1px solid transparent; */ /* inherit github.css */
   border-bottom-color: var(--border-color);
 }
-#file-library-list .file-list-item.active,
-#file-library-search-result .ty-search-item.active {
-  /* border: 1px solid var(--color-1); */ /* inherit github.css */
-}
 #file-library-list .file-list-item:hover,
 #file-library-search-result .ty-search-item:hover {
   /* background: var(--bg-color2); */ /* inherit github.css */
   border-color: var(--border-color);
-}
-#file-library-list .file-list-item:hover {
-  /* color: var(--color-1); */ /* inherit github.css */
-}
-#file-library-list .file-list-item:hover + .file-list-item:not(.active),
-#file-library-list .file-list-item.active + .file-list-item:not(.active),
-#file-library-search-result
-  .ty-search-item:hover
-  + .ty-search-item:not(.active),
-#file-library-search-result
-  .ty-search-item.active
-  + .ty-search-item:not(.active) {
-  /* border-top: 1px solid var(--border-color); */ /* inherit github.css */
-}
-#file-library-list .file-list-item.active:hover,
-#file-library-search-result .ty-search-item.active:hover {
-  /* border-color: var(--color-1); */ /* inherit github.css */
 }
 #file-library-search-result .ty-search-item.active {
   color: var(--text-color);
