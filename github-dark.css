@@ -524,9 +524,6 @@ span.md-comment {
 .outline-item > .outline-expander:before {
   background: transparent;
 }
-.outline-content li .outline-label {
-  /* white-space: nowrap; */ /* inherit github.css */
-}
 .outline-content li .outline-item::before {
   background: transparent;
   border-left: 1px solid var(--border-color);
@@ -540,16 +537,6 @@ span.md-comment {
 .outline-item-open > .outline-children::before {
   background: transparent;
   border-left: 1px solid var(--border-color);
-}
-.outline-item:hover,
-.outline-item:hover > .outline-label,
-.outline-item-active,
-.outline-item-active > .outline-label {
-  /* background: var(--bg-color2) !important; */ /* inherit github.css */
-}
-.outline-item-active > .outline-label,
-.outline-item-active > .outline-expander::before {
-  /* color: var(--color-1); */ /* inherit github.css */
 }
 /*ty-search-item*/
 #file-library-list .file-list-item,
@@ -591,12 +578,6 @@ span.md-comment {
 }
 .ty-file-search-match-text {
   background-color: var(--color-2-0-c);
-}
-.fa-folder:before,
-.fa-folder:after,
-.fa-caret-right,
-.fa-caret-down {
-  /* color: var(--text-grey); */ /* inherit github.css */
 }
 .file-node-content .file-node-open-state::after {
   border-left: 1px solid var(--border-color);
