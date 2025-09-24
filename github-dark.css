@@ -525,7 +525,7 @@ span.md-comment {
   background: transparent;
 }
 .outline-content li .outline-label {
-  white-space: nowrap;
+  /* white-space: nowrap; */ /* inherit github.css */
 }
 .outline-content li .outline-item::before {
   background: transparent;
