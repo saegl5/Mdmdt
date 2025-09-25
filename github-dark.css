@@ -213,8 +213,8 @@ blockquote,
   /* background: var(--color-1-0-b); */ /* inherit github.css */
   border-left: 4px solid var(--color-1);
   border-right: 0.1px solid transparent;
-  border-bottom: 0.1px solid transparent;
-  border-top: 0.1px solid transparent;
+  /* border-bottom: 0.1px solid transparent; */ /* inherit github.css */
+  /* border-top: 0.1px solid transparent; */ /* inherit github.css */
 }
 .md-alert.md-alert-note {
   border-left-color: var(--color-1);
