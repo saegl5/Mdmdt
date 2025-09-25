@@ -103,9 +103,6 @@ h1 {
 hr {
   background: var(--border-color);
 }
-strong {
-  /* color: #cfdfff; */ /* inherit github.css */
-}
 del {
   /* color: var(--text-grey); */ /* inherit github.css */
   /* text-decoration-color: var(--color-5); */ /* inherit github.css */
@@ -120,17 +117,6 @@ mark {
  * a, link
  * ------------------------
 */
-a {
-  /* color: var(--color-1); */ /* inherit github.css */
-}
-a:hover,
-.md-link a:hover,
-.footnotes a:hover {
-  /* color: var(--color-2); */ /* inherit github.css */
-}
-a:hover {
-  /* color: var(--color-2); */ /* inherit github.css */
-}
 .footnotes .md-def-name::before,
 .footnotes .md-def-name::after {
   color: var(--text-color);
@@ -259,9 +245,6 @@ blockquote,
 sup.md-footnote {
   background: var(--active-file-bg-color); /* override color */
   color: inherit; /* override color */
-}
-sup.md-footnote:hover {
-  /* color: var(--color-2); */ /* inherit github.css */
 }
 kbd {
   background: inherit; /* inherit github.css */
@@ -873,9 +856,6 @@ span.md-comment {
   background: #fff !important; /* override color */
   /* box-shadow: 0 1px 4px var(--color-1) !important; */ /* inherit github.css */
   color: #000; /* override color */
-}
-.md-hover-tip .code-tooltip-content:hover a {
-  /* color: var(--color-2) !important; */ /* inherit github.css */
 }
 .md-hover-tip a {
   color: var(--text-grey); /* override color */
