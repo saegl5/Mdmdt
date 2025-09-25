@@ -261,7 +261,7 @@ sup.md-footnote {
   color: inherit; /* override color */
 }
 sup.md-footnote:hover {
-  color: var(--color-2);
+  /* color: var(--color-2); */ /* inherit github.css */
 }
 kbd {
   background: inherit; /* inherit github.css */
