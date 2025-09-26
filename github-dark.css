@@ -12,7 +12,7 @@
 
 :root {
   --bg-color: #1b1b1f;
-  --bg-color2: rgb(40, 42, 50);
+  --bg-color2: #222226; /* override color to be 7 units brighter than --bg-color */
   --text-color: #d0d0d0;
   --text-grey: #464b50;
   --text-code: #bbc7fd;
@@ -40,10 +40,10 @@
   --primary-btn-border-color: var(--bg-color2);
   --primary-btn-text-color: var(--text-color);
   --window-border: 1px solid var(--border-color);
-  --active-file-bg-color: var(--bg-color2);
+  --active-file-bg-color: #2c2c30; /* override color to be 17 units brighter than --bg-color */
   /* --active-file-text-color: var(--color-1); */ /* inherit github.css */
   /* --active-file-border-color: var(--color-1); */ /* inherit github.css */
-  --side-bar-bg-color: var(--bg-color);
+  --side-bar-bg-color: #202024; /* override color to be 5 units brighter than --bg-color */
   --item-hover-bg-color: var(--bg-color2);
   /* --item-hover-text-color: var(--color-1); */ /* inherit github.css */
   --select-text-bg-color: var(--color-1-0-a);
