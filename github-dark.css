@@ -253,7 +253,7 @@ kbd {
   border: 1px solid var(--border-color); /* override color */
 }
 ::selection {
-  background: var(--color-2-0-c);
+  /* background: var(--color-2-0-c); */ /* inherit github.css */
 }
 table {
   border: 1px solid var(--border-color) !important;
